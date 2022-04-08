@@ -1,17 +1,4 @@
-/*export function Books({ book }) {
-  return (
-    <div style={{border:'1px solid black'}}>
-      <p><b>Title:</b> {book.name}</p>
-      <p><b>Authors:</b> {book.authors}</p>
-      <p><b>Country:</b> {book.country}</p>
-      <p><b>ISBN:</b> {book.isbn}</p>
-      <p><b>Media Type:</b> {book.mediaType}</p>
-      <p><b>Pages:</b> {book.numberOfPages}</p>
-      <p><b>Release date:</b> {new Date(book.released).toDateString()}</p>
-      <a href={`/${book.isbn}`}>Book details</a>
-    </div>
-  );
-}*/
+
 
 export function Books({ book }) {
   return (
